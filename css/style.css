@@ -1,0 +1,705 @@
+/*Global CSS*/
+
+@font-face
+{
+	font-family: "Titillium Web", sans-serif;
+	src: url(../fonts/TitilliumWeb-Bold.eot)
+		 url(../fonts/TitilliumWeb-Italic.eot)
+		 url(../fonts/TitilliumWeb-Light.eot)
+		 url(../fonts/TitilliumWeb-Regular.eot)
+		 url(../fonts/TitilliumWeb-SemiBold.eot)
+		 url(../fonts/TitilliumWeb-Bold.ttf)
+		 url(../fonts/TitilliumWeb-Italic.ttf)
+		 url(../fonts/TitilliumWeb-Light.ttf)
+		 url(../fonts/TitilliumWeb-Regular.ttf)
+		 url(../fonts/TitilliumWeb-SemiBold.ttf);
+}
+
+body
+{
+	color: #fff;
+	text-align: center;
+	font-family: "Titillium Web", sans-serif;
+}
+
+section
+{
+	padding: 50px 0px 100px;
+}
+
+li
+{
+	display: inline-block;
+}
+
+h1, h2, h3
+{
+	font-weight: bold;
+}
+
+h1
+{
+	color: #f7f3ea;
+	font-size: 42pt;
+}
+
+h2
+{
+	font-size: 40pt;
+}
+
+p,
+input[type=button],
+.section-five li
+{
+	font-size: 18pt;
+}
+
+input[type=button]
+{
+	font-family: "Titillium Web", sans-serif;
+	margin: 0px 0px;
+}
+
+h3,
+{
+	font-size: 24pt;
+}
+
+.orange-background
+{
+	background: #eb7d4b;
+}
+
+.section-two,
+.section-five input[type="button"]
+{
+	background: #17c2a4;
+}
+
+.hr-line
+{
+	height: 4px;
+	width: 87px;
+	margin: 20px auto;
+}
+
+.circle
+{
+	margin: auto;
+}
+
+.circle,
+li.social-media-circle
+{
+	border-radius: 50%;
+}
+
+.ash-background
+{
+	background: #787878;
+}
+
+.thin,
+.top-menu li
+{
+	font-size: 16pt;
+}
+
+.thin
+{
+	font-weight: 300;
+}
+
+.dark-blue-texts
+{
+	color: #3c4761;
+}
+
+.section-two img,
+.section-four img
+{
+	margin: 0px auto;
+}
+
+.section-three ul,
+.italic,
+.section-six h3,
+.section-six h3 + .post
+{
+	text-align: left;
+}
+
+.ash-texts
+{
+	color: #393939;
+}
+
+.section-two p:not(.thin),
+.section-five h2 + p
+{
+	padding: 0px 177px;
+}
+
+input,
+textarea
+{
+	border: none;
+}
+
+.semi-bold
+{
+	font-weight: 600;
+}
+
+.top-menu li,
+.section-five-menu li,
+input,
+textarea
+{
+	border-radius: 5px;
+}
+
+h3
+{
+	text-transform: uppercase;
+}
+
+/*Section One*/
+
+.section-one
+{
+	background: #87509c;
+}
+
+.top-menu
+{
+	float: right;
+	margin-top: -8px;
+}
+
+.top-menu li
+{
+	padding: 5px 19px;
+	margin: 6px;
+}
+
+.top-menu li.marked
+{
+	background: #643a79;
+}
+
+.section-one h1
+{
+	padding: 100px 0px 120px;
+}
+
+.section-one input[type=button]
+{
+	padding: 10px 50px;
+}
+
+/*Section Two*/
+
+.section-two .hr-line
+{
+	background: #14a58c;
+}
+
+/*Section Three*/
+
+.section-three
+{
+	background: #e7f1f8;
+}
+
+.section-three h2
+{
+	color: #27283d;
+}
+
+.section-three .hr-line
+{
+	background: #c8d9e5;
+}
+
+.section-three .circle
+{
+	height: 200px;
+	width: 200px;
+}
+
+.section-three .post,
+.contact-bottom li.marked
+{
+	color: #30bae7;
+}
+
+li.social-media-circle
+{
+	background: #bdd1df;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+
+li.social-media-circle i
+{
+	padding: 13px 0px;
+}
+
+/*Section Four*/
+
+.section-four
+{
+	background: #fff;
+}
+
+.section-four .hr-line
+{
+	background: #dfe8ed;
+}
+
+.section-four p
+{
+	padding: 0px 120px;
+}
+
+/*Section Five*/
+
+.section-five
+{
+	background: #ffdd99;
+}
+
+.section-five .hr-line
+{
+	background: #e5c37f;
+}
+
+.section-five-menu
+{
+	padding-top: 35px;
+}
+
+.section-five-menu li
+{
+	background: #ebc985;
+	box-shadow: 0px 0px 1px;
+	padding: 0px 20px;
+	margin: 0px 5px;
+}
+
+.section-five-menu li.marked
+{
+	background: #fff;
+}
+
+.section-five img
+{
+	margin: 35px 0px;
+}
+
+.section-five input[type=button]
+{
+	margin-top: 100px;
+	padding: 10px 50px;
+}
+
+/*Section Six*/
+
+.section-six
+{
+	background: #d74680;
+}
+
+.section-six .hr-line
+{
+	background: #b73c6d;
+}
+
+.section-six .circle
+{
+	height: 96px;
+	width: 96px;
+	margin-left: 30px;
+}
+
+.italic
+{
+	font-size: 21pt;
+	font-style: italic;
+	padding-right: 27px;
+}
+
+.italic,
+.italic + h3,
+.italic ~ .post
+{
+	margin-left: 74px;
+}
+
+.italic:before
+{
+	content: open-quote;
+}
+
+.italic:after
+{
+	content: close-quote;
+}
+
+.section-six h2 ~ div:not(.hr-line)
+{
+	padding: 15px 0px;
+}
+
+.post
+{
+	color: #ffdd99;
+}
+
+/*Section Seven*/
+
+.section-seven
+{
+	background: #3c5499;
+}
+
+.section-seven .hr-line
+{
+	background: #273a71;
+}
+
+input[type=text],
+textarea
+{
+	background: #273a71;
+	width: 100%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+label
+{
+	font-size: 18pt;
+	font-weight: normal;
+	position: relative;
+}
+
+input[type=text] + label
+{
+	bottom: 46px;
+	right: 175px;
+}
+
+textarea + label
+{
+	bottom: 210px;
+	right: 445px;
+}
+
+textarea
+{
+	margin-top: -5px;
+}
+
+form input[type=button]
+{
+	background: #30bae7;
+	padding: 10px 40px;
+	margin: 40px 0px 80px;
+}
+
+.star
+{
+	color: red;
+}
+
+/*Section Eight*/
+
+.section-eight
+{
+	background: #344b8e;
+}
+
+.contact-bottom li
+{
+	padding: 0px 22px;
+}
+
+.contact-bottom h3
+{
+	text-transform: capitalize;
+}
+
+/*Media Query*/
+
+@media (max-width: 480px), (min-width: 481px) and (max-width: 768px)
+{
+	.section-one img
+	{
+		margin: auto;
+	}
+
+	.top-menu
+	{
+		float: left;
+	}
+
+	.top-menu li,
+	.thin
+	{
+		font-size: 12pt;
+	}
+
+	.top-menu li
+	{
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	h1
+	{
+		text-align: justify;
+		font-size: 32pt;
+	}
+
+	h2
+	{
+		font-size: 30pt;
+	}
+
+	h3,
+	.contact-bottom li
+	{
+		font-size: 18pt;
+	}
+
+	p,
+	input[type=button],
+	label
+	{
+		font-size: 13pt;
+	}
+
+	.circle
+	{
+		display: none;
+	}
+
+	.section-two p:not(.thin)/*, 
+	.section-five h2 + p */
+	{
+		margin-top: 20px;
+	    padding: 0px;
+	}
+
+	.section-two img
+	{
+		display: none;
+	}
+
+	.section-two h3
+	{
+		margin-top: 20px;
+		opacity: 0.8;
+	}
+
+	.section-three ul
+	{
+		display: none;
+	}
+
+	.section-five
+	{
+		display: none;
+	}
+
+	.italic
+	{
+		font-size: 16pt;
+	}
+
+	input[type="text"] + label,
+	textarea + label
+	{
+		right: 0px;
+	}
+
+	.contact-bottom li
+	{
+		display: block;
+		padding: 0px;
+		text-align: center;
+		margin-left: -15px;
+	}
+}
+
+@media (max-width: 480px)
+{
+	.top-menu
+	{
+		margin: 30px 15px 0px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 768px)
+{
+	.top-menu
+	{
+		margin: 30px 160px 0px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px)
+{
+	h1
+	{
+		font-size: 37pt;
+	}
+
+	h2
+	{
+		font-size: 35pt;
+	}
+
+	h3,
+	.contact-bottom li
+	{
+		font-size: 21pt;
+	}
+
+	p,
+	input[type=button]
+	{
+		font-size: 15pt;
+	}
+
+	.thin,
+	.top-menu li,
+	.section-five-menu li
+	{
+		font-size: 13pt;
+	}
+
+	.top-menu
+	{
+		margin-top: 0px;
+	}
+
+	.top-menu li
+	{
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+
+	.section-two img
+	{
+		margin-top: 20px;
+	}
+
+	li.social-media-circle
+	{
+		float: left;
+	}
+
+	input[type="text"] + label 
+	{
+	   right: 150px;
+	}
+
+	textarea + label
+	{
+		right: 370px;
+	}
+
+	.contact-bottom
+	{
+		margin-left: -30px;
+	}
+
+	.contact-bottom li
+	{
+		padding-left: 14px;
+		padding-right: 14px;
+	}	
+}
+
+@media (min-width: 993px) and (max-width: 1199px)
+{
+	.top-menu li
+	{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
+	.section-three h3
+	{
+		padding: 0px 14px;
+	}
+
+	.three-d
+	{
+		padding-left: 31px;
+		padding-right: 31px;
+	}
+
+	.boss + p
+	{
+		padding: 0px 6px;
+	}
+
+	.section-three ul
+	{
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	.section-six h2 ~ div
+	{
+		padding: 0px;
+		margin-top: 20px;
+	}
+
+	.italic
+	{
+		margin-left: 67px;
+		padding-right: 0px;
+	}
+
+	.section-seven p
+	{
+		padding-left: 58px;
+		padding-right: 58px;
+	}
+
+	input[type=text] + label
+	{
+		right: 150px;
+	}
+
+	textarea + label
+	{
+		right: 370px;
+	}
+
+	.contact-bottom
+	{
+		margin-left: -30px;
+	}
+
+	.contact-bottom li
+	{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+}
+
+@media (min-width: 1200px)
+{
+	.section-three ul
+	{
+		text-align: center;
+	}
+}
